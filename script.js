@@ -6,7 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // Agregar tarea
   taskForm.addEventListener('submit', (e) => {
     e.preventDefault(); // Previene la recarga del sitio
-    const taskText = taskInput.value; // Obtener el valor del campo de texto
+    const taskText = taskInput.value.trim(); // Obtener el valor del campo de texto
+
+    if (taskText === '') {
+      return alert("No se puede agregar una entrada vacía."); // No registrar la entrada si es vacía
+    }
 
     // Crear un nuevo elemento de tarea
     const taskItem = document.createElement('li');
