@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Contenedor principal de la aplicación */
+  .todo-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  /* Estilo para el título principal */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilo para el formulario de agregar tareas */
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilo para la lista de tareas */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilo para cada elemento de la lista */
+  li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Cambio de estilo al marcar como completada la tarea */
+  li.completed {
+    text-decoration: line-through;
+    color: #77777786;
+  }
+  
+  /* Estilo para el botón de eliminar tarea */
+  li button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  /* Cambios en el botón tras hacer hover*/
+  li button:hover {
+    background-color: #c82333;
+  }
