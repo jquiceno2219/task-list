@@ -6,7 +6,7 @@
 
 * **Task Logging made easy:** Just type your task or homework into the input and click the button.
 * **Mark tasts as completed:** Once you complete the task, you can click it to mark it as completed.
-* **Delete tasks:** 
+* **Delete tasks:** Click the button to completely delete a task. 
 
 ## Installation
 
@@ -31,7 +31,7 @@
 
 ```npm run test```
 
-## Contributing
+## Pull requests and contributions
 
 We welcome contributions from the community! To contribute:
 
@@ -41,3 +41,9 @@ We welcome contributions from the community! To contribute:
 4. Commit your changes (`git commit -m 'Add some feature'`).
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
+
+## Future additions
+
+* Add data persistance capabilities.
+* Add categories and labels for different tasks.
+* Add image and video support.
